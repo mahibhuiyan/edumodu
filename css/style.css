@@ -101,7 +101,10 @@ a, a:hover{
 }
 /* main css end  here */
 .department{
-	width: 100%
+	width: 100%;
+	background: url("../images/bg1.png") center top no-repeat;
+	background-size: cover;
+	padding: 0px 0px
 }
 .department .title{
 	width: 100%;
@@ -146,11 +149,17 @@ a, a:hover{
 .about-chairmen{
 	width: 100%;
 	padding: 100px 0px 60px;
-
+	background: url("../images/bg2.png") center top no-repeat;
+	background-size: cover;
+	padding: 0px 0px
+}
+.about-chairmen .img-inner{
+	padding: 80px 0px 80px
 }
 .about-chairmen .inner-text{
 	width: 100%;
-	padding: 0px 0px 20px 15px
+	padding: 80px 0px 20px 95px;
+
 }
 .about-chairmen .inner-text h1{
 	font-size: 34px;
